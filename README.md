@@ -43,29 +43,17 @@ From multiple linear regression model we see that Vehicle length, spoliler angle
 
 ![image](https://user-images.githubusercontent.com/98556229/181818918-7eda6327-453c-4289-b5bd-cb3b3c1534e6.png)
 
-
-Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
-    The current manufacturing data taking into account all the manufacturing lots show a variance of 62.3. This is lower than the maximum variance of 100 pound per square inch for the MechaCar suspension coils. Taken overall, the data meets the design specifications.
-
-Looking at the three separate manufacturing lots separately:
-Lot 1 gives a variance of almost 1 PSI, which is well within the required design specifications.
-Lot 2 shows a variance of approx. 7.5 PSI, and also meets the required design specifications.
-Lot 3 shows a variance of approx. 170 PSI which is much higher than the 100 PSI maximum limit. Therefore lot 3 does not meet the required design specification.
-
-Each individual manufacturing lot shows a normal distribution of the PSI of the suspension coils, however the curve for lot 3 cars is more spread out.
+Lot1 and Lot2 PSI values are not statistically different from population mean. Their respective p-values are greater than the significance level. However, for Lot3 is 0.04 which is lesser than the significance level and it is infered that that Lot3 mean suspension coul PSI is statistically different from the population mean.
 
 
 ### Deliverable 3 - ### T-Tests on Suspension Coils
 
 ![image](https://user-images.githubusercontent.com/98556229/181819252-00be0341-5878-4d74-9a82-fb4e02436a6e.png)
 
-
 ### T-Test comparing PSI accross manufacturing lot 1 with the population mean of 1,500 pounds per square inch.
-
 ![image](https://user-images.githubusercontent.com/98556229/181819370-0686068c-3005-4f7f-b702-dbab3fcb96e8.png)
 
 ### T-Test comparing PSI accross manufacturing lot 2 with the population mean of 1,500 pounds per square inch.
-
 ![image](https://user-images.githubusercontent.com/98556229/181819462-140e8ab0-2b53-4e8f-96b0-961c146cd947.png)
 
 ### T-Test comparing PSI accross manufacturing lot 3 with the population mean of 1,500 pounds per square inch.
