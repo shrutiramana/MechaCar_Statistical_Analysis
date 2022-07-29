@@ -74,7 +74,7 @@ Each individual manufacturing lot shows a normal distribution of the PSI of the 
 According to each of the one-sample t-tests, Lot 1 and Lot 2 PSI values are not statistically different from the population mean. However the p-value of Lot 3 is 0.041 which is below the significance level, which means there is evidence that the Lot 3 mean suspension coil PSI is statistically different from the population mean.
 
 
-###Deliverable 4: Design a Study Comparing the MechaCar to the Competition.
+### Deliverable 4: Design a Study Comparing the MechaCar to the Competition.
 To do analysis on MechaCar against one of its competitions, we can consider following -
 Horse Power or Cost or Fuel Efficiency or Safety.
 
